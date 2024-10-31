@@ -86,7 +86,7 @@ content:
         additional_links:
           - title:  Publication Link
             icon: fab fa-researchgate
-            url: https://www.researchgate.net/publication/357768010_Disease_Prediction_Based_on_Individual's_Medical_History_Using_CNN
+            url: https://www.researchgate.net/publication/353896719_Monitoring_and_Forecasting_of_Air_Emissions_with_IoT_Measuring_Stations_and_a_SaaS_Cloud_Application
         description: | # this will include new lines to allow paragraphs
           This project focuses on harnessing the potential of real-life ICD-coded Electronic Medical Records (EMR) collected in Africa between 2018-2019 to revolutionize healthcare diagnostics. Using cutting-edge machine learning techniques, particularly Convolutional Neural Networks (CNN), this research has crafted a predictive model with the aim of averting future health complications.
           The process involves transforming millions of raw EMR data points into multi-step time-series forecasting data, enabling the CNN model to accurately forecast an individual's disease risk based on their medical history and demographics.
