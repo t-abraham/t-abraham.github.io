@@ -1,0 +1,149 @@
+# Site
+# repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Mohammad Tahasanul Ibrahim
+title: Research Scientist
+email: tahasanul (dot) ibrahim (at) gmail (dot) com
+github: https://github.com/t-abraham
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  t-abraham
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: tahasanul
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+orcid_username: 0000-0002-7468-0171
+research_gate_username: M-Tahasanul-Ibrahim
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+  
+- title: another link
+  icon: fab fa-researchgate
+  url: https://www.researchgate.net/profile/M-Tahasanul-Ibrahim
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Greetings! I'm Tahasanul Ibrahim, a Ph.D. candidate in machine learning, passionate about harnessing the potential of data to shape a brighter future.
+  My journey as a research scientist has led me to develop Python packages, innovative algorithms, and custom solutions for industry partners.
+  With a background in leading teams and mentoring, I've honed my problem-solving and leadership skills.
+  My career has been a dynamic mix of academia and industry, equipping me with the expertise to tackle complex challenges and make a meaningful impact.
+  Welcome to my portfolio!
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Development of a Knowledge Transfer System for Complex Manufacturing Processes Using the Example of Hot Forming of Lightweight Components (WiTraPres)
+        additional_links:
+          - title:  Publication Link
+            icon: fab fa-researchgate
+            url: https://www.researchgate.net/publication/362818611_Production_Assessment_using_a_Knowledge_Transfer_Framework_and_Evidence_Theory
+        description: | # this will include new lines to allow paragraphs
+          In response to the challenges posed by an aging workforce and the consequent loss of critical production technology expertise, this project focuses on creating a robust Knowledge Transfer System (WTS) to support production continuity. As experienced employees retire or relocate, knowledge gaps in maintaining and controlling complex production processes often lead to reduced productivity and increased rejection rates.
+          This project aims to establish a "smart service" solution that centralizes and networks process management, troubleshooting, maintenance support, and employee training in production environments. By developing a comprehensive knowledge base, the WTS will facilitate smoother onboarding, minimize downtime, and improve operational efficiency.
+          The system will be piloted in the press hardening of 22MnB5 lightweight construction material, a process with numerous influencing factors that present a concrete challenge for our industrial partner, GEDIA. This pilot serves as a real-world application, allowing us to design and refine the WTS to meet high standards in knowledge retention and operational reliability.
+      
+      - layout: top-middle
+        title: Adaptive Fault Detection in Production Lines through Ensemble Classification and Expert Knowledge Fusion using Evidence Theory
+        additional_links:
+          - title:  Publication Link
+            icon: fab fa-researchgate
+            url: https://www.researchgate.net/publication/371048206_Anomaly_Detection_using_Ensemble_Classification_and_Evidence_Theory
+          - title:  Publication Link
+            icon: fab fa-researchgate
+            url: https://www.researchgate.net/publication/376961329_Adaptive_Information_Fusion_using_Evidence_Theory_and_Uncertainty_Quantification
+        description: | # this will include new lines to allow paragraphs
+          This project presents a comprehensive approach to enhancing fault detection systems in production environments by combining data-driven models with expert-centered knowledge using adaptive information fusion and evidence theory. Traditional data-based models, while effective in known conditions, are limited in their ability to manage data drift and unknown faults due to their reliance on a static training dataset. This necessitates a robust anomaly detection mechanism that can identify new fault cases and adapt to evolving conditions.
+          To address these challenges, we propose a fault detection framework that integrates ensemble classification with expert-centered insights, leveraging evidence theory for information fusion and uncertainty quantification. This dual-source fusion approach not only improves fault prediction accuracy but also provides associated uncertainty metrics, which operators can use to assess prediction reliability in real-time. By enabling the system to automatically adapt to new conditions, this framework reduces the risks associated with unseen faults and data drift.
+          The project includes an experimental application of the methodology using data from an industrial setup and the Tennessee Eastman benchmark, demonstrating the system’s efficacy in real-world conditions. Additionally, an ablation study evaluates the impact of model update parameters on system adaptability, underscoring the framework’s robustness in continuously changing production environments. This adaptive fault detection approach thus serves as a reliable decision-support tool, equipping operators to handle dynamic conditions with confidence.
+      
+      - layout: top-middle
+        title: Monitoring of Air Emissions in the Cities of El Salvador
+        additional_links:
+          - title:  Publication Link
+            icon: fab fa-researchgate
+            url: https://www.researchgate.net/publication/357768010_Disease_Prediction_Based_on_Individual's_Medical_History_Using_CNN
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on harnessing the potential of real-life ICD-coded Electronic Medical Records (EMR) collected in Africa between 2018-2019 to revolutionize healthcare diagnostics. Using cutting-edge machine learning techniques, particularly Convolutional Neural Networks (CNN), this research has crafted a predictive model with the aim of averting future health complications.
+          The process involves transforming millions of raw EMR data points into multi-step time-series forecasting data, enabling the CNN model to accurately forecast an individual's disease risk based on their medical history and demographics.
+          The biggest challenge was cleaning up the data and creating the multi-step time-series forecasting data. After training, the model impressively achieves an 80.73% accuracy rate in predicting future disease risk, promising significant cost savings, enhanced hospital capacity planning, and invaluable peace of mind regarding personal health.
+          
+      - layout: top-middle
+        title: Incremental Object Categorization for AI-Driven Computer Vision with a Two-Step Method for Efficient Network Expansion and Knowledge Preservation
+        additional_links:
+          - title:  Publication Link
+            icon: fab fa-researchgate
+            url: https://www.researchgate.net/publication/381197668_Node_Reservation_Based_Incremental_Learning_Network_for_Object_Detection
+        description: | # this will include new lines to allow paragraphs
+          This project addresses a key challenge in AI-driven computer vision: efficiently incorporating new object categories into existing networks without sacrificing detection accuracy or prior knowledge. Object categorization spans applications from advanced surveillance to simpler projects, all of which require adaptive, accurate systems.
+          The two-step method introduces a seamless way to integrate new classes by embedding foresight into the network’s initial training, designating layers specifically for future expansions. When new objects are added, these layers are selectively activated, streamlining the retraining process while preserving prior knowledge. This proactive approach is particularly valuable for time-sensitive, resource-constrained systems, ensuring efficient resource allocation and enabling flexible adaptation to evolving requirements.
+  
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Promotionskolleg NRW
+        caption: 2023 - Present
+        sub_title: Ph.D.
+        quote: >
+          The Promotionskolleg NRW (PK NRW) bundles the scientific competencies of the universities of applied sciences in North Rhine-Westphalia and offers young scientists an excellent environment for academic qualification.
+        description: | # this will include new lines to allow paragraphs
+          During my time at PK NRW I learnt most of the key skills that I such as leadership, teamwork, and working to tight deadlines.
+          I thoroughly enjoyed my time conducting research, exploring new avenues for improvement, and in general about the need for positive collaboration with researchers from a variety of other domains.
+      - layout: left
+        title: Fachhochschule Suedwestfalen
+        caption: 2014 - 2020
+        sub_title: M.Sc. Systems Engineering and Engineering Management
+        quote: >
+          The FH Suedwestfalen looks back on a long history - its historically oldest predecessor was founded in 1824. It has existed in its current form since 2002 through the merger of the Maerkische Fachhochschule with the Meschede and Soest departments of the Gesamthochschule Paderborn.
+        description: | # this will include new lines to allow paragraphs
+          The master's was my gateway into machine learning after working in the manufacturing industry for 5 years. Doing a master's after being in the industry for so long was a difficult choice. But I do not regret choosing to do it in the slightest.
+          I learnt about a lot of exciting new technologies in production systems, control systems, and of course, also machine learning. 
+      
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in machine learning and data science some of my other interests and hobbies are:
+      - Motorbikes
+      - Books
+      - Football
+      - Traveling
+      - Tech-Fairs
+      
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
